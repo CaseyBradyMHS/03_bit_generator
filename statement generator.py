@@ -17,4 +17,4 @@ def statement_generator(text, decoration):
 
 # main routine goes here
 
-statement_generator("look - stars", "*")
+statement_generator("hello world", "-")
