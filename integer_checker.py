@@ -22,3 +22,10 @@ def num_check(question, low):
         except ValueError:
             print(error)
             print()
+
+# main routine goes here
+
+
+keep_going = ""
+while keep_going == "":
+    print()
