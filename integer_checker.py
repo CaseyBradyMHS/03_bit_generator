@@ -4,8 +4,7 @@ def num_check(question, low):
     valid = False
     while not valid:
 
-        error = "please enter a integer that is more than "
-        "(or equal to) {}".format(low)
+        error = "please enter a integer that is more than (or equal to) {}".format(low)
 
         try:
             # ask for a number
