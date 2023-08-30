@@ -1,7 +1,6 @@
 # function goes here
 
 # puts series of symbols at start and end of text (for emphasis)
-
 def statement_generator(text, decoration):
     # make string with 5 characters
     ends = decoration * 5
@@ -15,6 +14,7 @@ def statement_generator(text, decoration):
     return ""
 
 
+# sorts what the user has chosen into file types
 def user_choice():
 
     # list of valid responses
@@ -51,6 +51,11 @@ def user_choice():
             print()
 
 
+# integer checker
+
+def num_check(question, low):
+
+
 # main routine goes here
 
 # heading
@@ -67,6 +72,7 @@ while keep_going == "":
     print("you chose", data_type)
 
     # for integers ask for integer (must be an integer more than / equal to 0)
+
 
     # for images ask for width and height (more than 0)
 
