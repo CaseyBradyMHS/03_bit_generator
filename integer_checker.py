@@ -31,7 +31,7 @@ keep_going = ""
 while keep_going == "":
 
     # Ask user for the width...
-    integer = num_check("Enter an integer", 0)
+    var_integer = num_check("Enter an integer", 0)
     print(f"You chose {integer} for the integer")
     width = num_check("Image width: ", 1)
     print(f"You chose {width} for the width")
