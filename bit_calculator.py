@@ -55,8 +55,6 @@ def user_choice():
 def instructions():
     statement_generator("Instructions / information", "=")
     print('''
-Please choose a datatype (image / text / integer).
-
 This program assumes that images are being represented    
 in 24 bit colour (ie: 24 bits per pixel). for text, we assume   
 that ascii encoding is being used (8 bits per character).
